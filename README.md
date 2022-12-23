@@ -1,5 +1,5 @@
 # Mixed Messages
-> Random inspirational quotes for different moods.
+> Random inspirational quotes for different moods.   
 > Html front page included with choices for quote type.
 
 ## Project Info
