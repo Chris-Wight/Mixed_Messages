@@ -120,7 +120,7 @@ main{
     width: 90%; 
     height: 40%;
     background-color: #32261e;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .quote-example{
@@ -146,10 +146,15 @@ main{
         width: 7em;
         height: 7em;
     }
+    .quote-div{
+        height: 100%;
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width: 574px) {
     .inner-div-top{
         flex-direction: column;
+        
     }
     .main-button{
         width: 100%;

@@ -4,24 +4,18 @@
 > Html front page included with choices for quote type.
 
 ## Project Info
-The goal of this project is to create a message generator program.
-Every time a user runs a program they are to receive a randomized message
-generated from javascript functions.
+The goal of this project is to create a quote generator frontend.
+Every time a user interacts with an html element, they are to receive a randomized quote based on their chosen category. This is generated from javascript syntax.
 
 ##  Project Includes
 * HTML FrontEnd Ui
-* JavaScript Written Randomized Quotes
+* JavaScript Syntax - Randomized Quotes
 
 ## Current Status
-Ongoing.
+Finished.
 
 ## Setup
-To run this project, install it locally using node and the file local:
-As this projects involves 
-
-```$ cd ../folder```
-
-```$ node script.js```
+To run this project, save files locally & run within a browser of choice.
 
 ## Project Origin
 codecademy portfolio project.
