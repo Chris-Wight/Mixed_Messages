@@ -1,10 +1,5 @@
-const codeQuote = document.getElementById("codeQuote");
-const funQuote = document.getElementById("funQuote");
-const famousQuote = document.getElementById("famousQuote");
-const lifeQuote = document.getElementById("lifeQuote");
 const generateButton = document.getElementById("generate-quote");
 const quoteEl = document.getElementById("quote-text");
-const quoteArray = [codeQuote, funQuote, famousQuote, lifeQuote];
 
 const quotes = {
     funQuotes: [
@@ -66,26 +61,23 @@ const randomNum = () =>{
 }
 
 generateButton.addEventListener("click", function(){
-    for(let i = 0; i < quoteArray.length; i++ ){
-        if(quoteArray[i].checked){
-          switch(quoteArray[i].id){
-            case "codeQuote":
-                quoteEl.innerHTML = quotes.codeQuotes[randomNum()];
-                break;
-            
-            case "funQuote":
-                quoteEl.innerHTML = quotes.funQuotes[randomNum()];
-                break;
+    const quoteType = document.querySelector('input[name="Quotes"]:checked');
+    switch(quoteType.value){
+    case "Code":
+        quoteEl.innerHTML = quotes.codeQuotes[randomNum()];
+        break;
+    
+    case "Fun":
+        quoteEl.innerHTML = quotes.funQuotes[randomNum()];
+        break;
 
-            case "famousQuote":
-                quoteEl.innerHTML = quotes.famousQuotes[randomNum()];
-                break;
+    case "Famous":
+        quoteEl.innerHTML = quotes.famousQuotes[randomNum()];
+        break;
 
-            case "lifeQuote":
-                quoteEl.innerHTML = quotes.lifeQuotes[randomNum()];
-                break;
-          }
-        }
+    case "Life":
+        quoteEl.innerHTML = quotes.lifeQuotes[randomNum()];
+        break;
     }
 })
 
