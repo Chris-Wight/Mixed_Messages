@@ -16,7 +16,7 @@ Finished.
 
 ## Setup
 To run this project, save files locally & run within a browser of choice.
-HTML Preview - http://htmlpreview.github.io/?https://github.com/Chris-Wight/Mixed_Messages/blob/main/index.html
+HTML Preview - https://chris-wight.github.io/Mixed_Messages/
 
 ## Project Origin
 codecademy portfolio project.
